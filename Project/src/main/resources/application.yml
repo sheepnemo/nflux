@@ -1,0 +1,18 @@
+spring:
+  # PostgreSQL DB 설정
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/project
+    username: sskhyeon
+    password: 1234
+
+  jpa:
+    show-sql: true
+    database: postgresql
+    hibernate:
+      ddl-auto: create
+
+  mvc:
+    view:
+      suffix: .html
+      prefix: /resources/templates/
