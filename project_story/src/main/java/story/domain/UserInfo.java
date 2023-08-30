@@ -3,8 +3,8 @@ package story.domain;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "USER_INFO")
-public class User {
+@Table (name = "USER_INFO")
+public class UserInfo {
 	
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column
