@@ -14,4 +14,6 @@ public class user {
 	int c;
 	
 	String name;
+	
+	int number;
 }
