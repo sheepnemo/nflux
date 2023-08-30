@@ -16,5 +16,5 @@ public class user {
 	String name;
 	
 	int number;
-	String post;
+	String post = "경기도";
 }
