@@ -8,4 +8,5 @@ public class Member {
 	String email;
 	
 	String a;
+	String b;
 }
