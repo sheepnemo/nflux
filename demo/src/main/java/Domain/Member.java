@@ -6,4 +6,6 @@ public class Member {
 	String pw;
 	String id;
 	String email;
+	
+	String a;
 }
