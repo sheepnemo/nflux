@@ -8,4 +8,8 @@ public class user {
 	String id;
 	String pw;
 	String Phone;
+	
+	int a;
+	int b;
+	int c;
 }
