@@ -12,4 +12,6 @@ public class user {
 	int a;
 	int b;
 	int c;
+	
+	String name;
 }
