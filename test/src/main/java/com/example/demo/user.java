@@ -16,4 +16,5 @@ public class user {
 	String name;
 	
 	int number;
+	String post;
 }
