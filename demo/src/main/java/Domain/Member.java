@@ -9,4 +9,5 @@ public class Member {
 	
 	String a;
 	String b;
+	String cd;
 }
