@@ -22,10 +22,10 @@ public class PostInfo {
 	@Column (name = "P_DATE")
 	private String postingDate;
 	
-	@Column (name = "P_TIME")
+	@Column (name = "P_TIMES")
 	private int postTimes;
 	
 	@Column (name = "P_AFFIRM")
-	private int postAffirmNumber;
+	private int affirmNumber;
 	
 }

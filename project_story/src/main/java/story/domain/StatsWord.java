@@ -11,7 +11,7 @@ public class StatsWord {
 	private Long id;
 	
 	@Column (name = "S_AFFIRM")
-	private int wordAffirmnumber;
+	private int affirmnumber;
 	
 	@Column (name = "S_WORD")
 	private String word;

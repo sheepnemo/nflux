@@ -11,11 +11,11 @@ public class PostComment {
 	private Long id;
 	
 	@Column (name = "P_ID")
-	private String postId;
+	private Long postId;
 	
 	@Column (name = "P_COMMENT")
 	private String postComment;
 	
-	@Column (name = "P_COMMENTUSER")
-	private String commentUser;
+	@Column (name = "P_COMMENTER")
+	private String commenter;
 }

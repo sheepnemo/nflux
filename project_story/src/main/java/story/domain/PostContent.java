@@ -11,7 +11,7 @@ public class PostContent {
 	private Long id;
 	
 	@Column (name = "P_ID")
-	private String postId;
+	private Long postId;
 	
 	@Column (name = "P_CONTENT")
 	private String postContent;
